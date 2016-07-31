@@ -5,3 +5,5 @@
 [user]
 	name = yodax
 	email = michael@kroes.email
+[push]
+	default = simple
