@@ -46,7 +46,8 @@ alias egrep='egrep --color=auto'
 alias sudo='sudo '
 
 # Su directly into bash
-alias su='su root -c bash'
+#alias su='su root -c bash'
+alias su='su -m root --rcfile $HOME/.bash_profile'
 
 # Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup;'
